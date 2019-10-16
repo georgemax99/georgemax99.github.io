@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>Admin Form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      </head>
+      <body>
+        <h1>Admin Form</h1>
+        <form style="width:75%;">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" placeholder="Title">
+          </div>
+          <div class="form-group">
+            <label for="author">Author</label>
+            <input type="text" class="form-control" id="author" placeholder="Author">
+          </div>
+          <div class="form-row">
+            <div class="col">
+              <div class="form-group">
+                <label for="myFile">File</label>
+                <input type="file" class="form-control" id="myFile" name="fileName">
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="select">Pages</label>
+                <select class="form-control" id="select">
+                  <option>Academics</option>
+                  <option>Sports</option>
+                  <option>Projects</option>
+                  <option>About Me</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="text">Article Text</label>
+            <textarea class="form-control" id="text" rows="5"></textarea>
+          </div>
+
+          <div class="form-row">
+
+
+            <div class="form-group col">
+              <label for="python">Select Tags:</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="python" value="Python">
+                <label class="form-check-label" for="inlineCheckbox1">Python</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="c++" value="C++">
+                <label class="form-check-label" for="inlineCheckbox2">C++</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="java" value="Java">
+                <label class="form-check-label" for="inlineCheckbox1">Java</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="scala" value="Scala">
+                <label class="form-check-label" for="inlineCheckbox2">Scala</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="perl" value="Perl">
+                <label class="form-check-label" for="inlineCheckbox2">Perl</label>
+              </div>
+            </div>
+
+            <div class="form-group col">
+              <label for="public">Visibility:</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="public" value="public">
+                <label class="form-check-label" for="inlineRadio1">Public</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="private" value="private">
+                <label class="form-check-label" for="inlineRadio2">Private</label>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          <br>
+          <div class="form-group">
+            <label for="login">Login to Submit</label>
+            <div class="form-row" id="login">
+              <div class="form-group col">
+                <input type="text" class="form-control" id="username" placeholder="Username">
+              </div>
+              <div class="form-group col">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="remember" value="remember">
+                <label class="form-check-label" for="inlineCheckbox1">Remeber Me</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </body>
+    </html>

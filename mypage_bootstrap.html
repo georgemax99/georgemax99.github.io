@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      </head>
+      <body>
+        <h1 class="container" style="text-align:center;">Young, George</h1>
+        <p class="card bg-light" style="width:50%; margin: auto;">Three interesting facts about myself: I am from Florida, I like to surf, wakesurf, and wakeboard, I am starting a startup.
+            The reason I am studying computer science is because I have always enjoyed making things with code such as apps and games.</p>
+        <h2 style="text-align:center;">My Professional Profile</h2>
+        <a href="https://github.com/georgemax99" style="margin-left:48%; margin-right:50%;"><button type="button" class="btn btn-primary">My GitHub</button></a><br>
+        <img src="https://www.colorado.com/sites/default/files/styles/1000x685/public/Never-far-from-nature-in-Boulder_cropped_0.jpg?itok=nm2qB6s6"
+         class="rounded-circle" alt="Boulder" width="700px" height="500px" style="display: block; margin:auto;">
+         <br>
+        <h3 style="text-align:center;">My Favorite Projects</h3>
+        <table class="table table-dark" style="text-align:center; width:50%; margin:auto;" >
+          <tr>
+            <th>Name of Project</th>
+            <th>Technologies Used</th>
+          </tr>
+          <tr>
+            <td>Party Favor</td>
+            <td>Swift, Java, AWS Elastic Beanstalk, MySql, Apple CloudKit, Twilio, AWS SES, Apple StoreKit, TomCat</td>
+          </tr>
+          <tr>
+            <td>BiteFind</td>
+            <td>Objective-C, Google Places API</td>
+          </tr>
+          <tr>
+            <td>Data Structures Music Player</td>
+            <td>C++, Python</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-primary" type="button" data-toggle="collapse"
+              data-target="#country" aria-expanded="false" aria-controls="country"><h3>Country's Travelled</h3></button>
+              <div id="country" class="collapse">
+                <div class="card card-body">
+                  <ul>
+                    <li>Italy</li>
+                    <li>Spain</li>
+                    <li>France</li>
+                    <li>Bahamas</li>
+                    <li>British Virgin Islands</li>
+                    <li>Puerto Rico</li>
+                    <li>Hawaii</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#interest"><h3>My Interests</h3></button>
+              <div id="interest" class="collapse">
+                <div class="card card-body">
+                  <ol>
+                    <li>Programming</li>
+                    <li>Startups</li>
+                    <li>Wakesurfing</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="margin-left:48%; margin-right:50%;">Fun Fact Inside</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Fun Fact:</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+              </div>
+              <div class="modal-body">
+                <p>The largest known organism is the aspen grove.</p>
+                <a href="https://www.goodhousekeeping.com/life/g25692093/random-trivia/?slide=1">Credit For Fact</a>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </body>
+    </html>
